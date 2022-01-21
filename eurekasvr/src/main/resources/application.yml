@@ -1,0 +1,11 @@
+server:
+  port: 8761
+eureka:
+  client:
+    # eureka注册
+    register-with-eureka: false
+    # 本地缓存
+    fetch-registry: false
+  server:
+    # 等待时间
+    wait-time-in-ms-when-sync-empty: 5
